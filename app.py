@@ -1,11 +1,6 @@
-#import streamlit
-from predict_page import show_predict_page
-
-#show_predict_page()
-
 import streamlit as st
 import pandas as pd
-
+from predict_page import show_predict_page
 # Security
 #passlib,hashlib,bcrypt,scrypt
 import hashlib
